@@ -1,0 +1,21 @@
+<title>Calculator</title>
+<link rel="stylesheet" href="/static/css/style.css">
+
+<div class="content">
+    <h1 style ="text -align: center">Calculator</h1>
+
+    <div class ="form">
+        <form action="/math" method="POST">
+            <label for ="operation">Choose a Maths operation</lable>
+<select id ="operation" name="operation">
+    <option value="add">add</option>
+    <option value="subtarct">subtarct</option>
+    <option value="multiply">multiply</option>
+    <option value="divide">divide</option>
+</select>
+            <input type ="text" name="num1" id="num1">
+            <input type ="text" name="num2" id="num2">
+            <input type ="submit" value="Calculate">
+        </form>
+    </div>
+</div>    
